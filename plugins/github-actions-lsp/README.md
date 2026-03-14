@@ -1,23 +1,23 @@
-# GitHub Actions LSP Plugin
+# github-actions-lsp
 
-Provides GitHub Actions workflow language server integration for Claude Code.
+GitHub Actions workflow language server for Claude Code, providing validation and auto-completion.
 
-## Features
-
-- Workflow validation for `.yml` and `.yaml` files
-- GitHub Actions syntax highlighting and diagnostics
-- Auto-completion for actions and workflow syntax
-
-## Requirements
-
-- `actions-languageserver` installed and available on your `PATH`
+## Supported Extensions
+`.yml`, `.yaml`
 
 ## Installation
+
+Install the Actions language server globally via npm:
 
 ```bash
 npm install -g @actions/languageserver
 ```
 
+Make sure `actions-languageserver` is in your PATH.
+
 ## Note
 
 This plugin applies to all YAML files. It may conflict with other YAML language servers.
+
+## More Information
+- [GitHub Repository](https://github.com/actions/languageservices)
