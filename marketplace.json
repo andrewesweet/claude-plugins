@@ -1,0 +1,23 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "andrewesweet"
+  },
+  "plugins": [
+    {
+      "name": "terraform-lsp",
+      "source": "./plugins/terraform-lsp",
+      "description": "Terraform language server for HCL code intelligence"
+    },
+    {
+      "name": "github-actions-lsp",
+      "source": "./plugins/github-actions-lsp",
+      "description": "GitHub Actions workflow language server"
+    },
+    {
+      "name": "serena",
+      "source": "./plugins/serena",
+      "description": "Semantic code analysis MCP server (Claude Code context with memory tools disabled)"
+    }
+  ]
+}

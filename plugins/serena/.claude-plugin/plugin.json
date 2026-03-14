@@ -1,0 +1,8 @@
+{
+  "name": "serena",
+  "description": "Semantic code analysis MCP server (Claude Code context with memory tools disabled)",
+  "version": "1.0.0",
+  "author": {
+    "name": "andrewesweet"
+  }
+}
